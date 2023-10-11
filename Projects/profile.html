@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>My Profile</title>
+        <style>
+            .page-title
+            {
+                display: block;
+                font-size:25px;
+                margin-left: 25px;
+                color: rgb(14, 13, 13);
+            }
+            .menu-item
+            {
+                border-right: 1px solid black;
+                text-align: center;
+                padding: 10px;
+                color: rgb(34, 30, 30);
+            }
+            .menu-bar
+            {
+                background-color: rgb(232, 226, 236);
+            }
+            .hello
+            {
+                text-align: center;
+                margin: 0px;
+                padding: 10px;
+                background-color: rgb(198, 198, 194);
+            }
+            .about-sec
+            {
+                padding: 10px;
+                background-color: rgb(46, 44, 44);
+                color: white;
+                text-align: center;
+                padding-left: 40px;
+                padding-right: 40px;
+                
+            }
+            .about
+            {
+                text-align: center;
+                font-size: 40px;
+            }
+            .project-sec
+            {
+                padding: 10px;
+                background-color: rgb(198, 198, 194);
+                color: black;
+            }
+            .project
+            {
+                text-align: center;
+                font-size: 40px;
+                
+            }
+            .underline
+            {
+                margin: auto;
+                margin-top: 5px;
+                width: 60px;
+                text-align: center;
+                border-bottom: 2px solid black;
+            }
+            .achive-sec
+            {
+                padding: 10px;
+                background-color: rgb(46, 44, 44);
+                color: white;
+            }
+            .achive
+            {
+                text-align: center;
+                font-size: 40px;
+            }
+            .contact-sec
+            {
+                padding: 10px;
+                background-color: rgb(198, 198, 194);
+                color: black;
+            }
+            .contact
+            {
+                text-align: center;
+                font-size: 40px;
+            }
+            .contact-form
+            {
+                display: block;
+                width: 50%;
+                margin: auto;
+                background-color: black;
+
+            }
+            .input-box
+            {
+                /* display: inline-block; */
+                width: 60%;
+                margin: 10px;
+                padding: 7px;
+                font-size: 12px;
+            }
+            label
+            {
+                display: inline-block;
+                width: 30%;
+                text-align: left;
+                color: white;
+                padding: 15px;
+            }
+            .send
+            {
+                display: block;
+                width: 70px;
+                font: 12px;
+                padding: 10px;
+                margin: auto;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body style="width: 100%;margin: 0%;">
+        <table style="width: 100%;border-collapse: collapse;">
+            <tr class="menu-bar">
+                <td class="page-title">REVATHI</td>
+                <td class="menu-item">HOME</td>
+                <td class="menu-item">ABOUT</td>
+                <td class="menu-item">PROJECTS</td>
+                <td class="menu-item">CONTACT</td>
+            </tr>
+        </table>
+        <h1 class="hello">Hello there!</h1>
+        <div class="about-sec">
+            <img class src="revathi.jpg" width="200" height="200">
+            <h3 class="about">About me</h3>
+            <p>Thanks for your interest, here is a quick story of me and this website. Iam Revathi N from Bengaluru, I was Completed my Bachelor's of Engineering in 2019 with 7.45CGPA from PES College of Engineering, Mandya. Iam the person ability to work with a team of dedicated professionals for achieving the deadlines for the execution of work and capable of maintaining high working standards and good working relationship with clients. I done my training on Java Full-stack Development and Testing course from KodNest. Besides these I know Web Development and database as well. This website is basically one of my Web Development project which is built using HTML only. Thanks again for reading this, because of people like you, it exists and prospers!</p>
+        </div>
+        <div class="project-sec">
+            <h3 class="project">Projects<p class="underline"></p></h3>
+            <ul>
+               <li>Microcontroller Based Accident Avoidance System</li> 
+               <li>Automated Door Opener System</li> 
+            </ul>
+        </div>
+        <div class="achive-sec">
+            <h3 class="achive">Achievements<p class="underline"></p></h3>
+            <ul>
+               <li>NPTEL Certification on C programming</li> 
+               <li>NPTEL Certification on Digital Electronic Circuits</li> 
+               <li>Intenship on Java from Qspiders</li> 
+               <li>District Level Quiz Compietitor</li>  
+            </ul>
+        </div>
+        <div class="contact-sec">
+            <h3 class="contact">Leave a message<p class="underline"></p></h3>
+            <form class="contact-form">
+                <label>Name</label>
+                <input type="text" name="name" class="input-box" placeholder="Enter your name"><br>
+                <label>Email</label>
+                <input type="email" name="email" class="input-box" placeholder="Enter your email"><br>
+                <label>Phone no</label>
+                <input type="number" name="phone" class="input-box" placeholder="Enter your phone no."><br>
+                <label>Message</label>
+                <input type="text" name="msg" class="input-box" placeholder="Enter your message here.."><br>
+                <input type="submit" name="submit" value="Send" class="send"><br>
+            </form>
+        </div>
+    </body>
+</html>
