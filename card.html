@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+
+        body {
+            background-color: #f8f9fd;
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #card-box {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 60%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .card {
+            display: block;
+            width: 95%;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 20px;
+            background-color: white;
+            height: 400px;
+        }
+
+        #background {
+            background-color: #090e22;
+            height: 120px;
+            border-radius: 10px;
+        }
+
+        #img {
+            display: block;
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            margin-top: -50px
+        }
+
+        #button_space {
+            width: 100%;
+            margin: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            width: 100px;
+            margin: 12px;
+            border: 2px solid rgb(248, 237, 237);
+            background-color: rgba(255, 255, 255, 0.977);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #toggle-box {
+            display: block;
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+            /* height: 60px; */
+            padding: 10px;
+            background-color: #f8f9fd;
+            border-radius: 5px;
+        }
+
+        .toggle-btn {
+            display: inline-block;
+            width: 48%;
+            padding: 5px;
+            border: 0px;
+            background-color: transparent;
+            border: 7px;
+            color: #836de2;
+        }
+
+        .active {
+            border: 2px solid #ecf0f3;
+            background-color: white;
+        }
+
+        .msg-box1 {
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .msg-box2 {
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+            width: 90%;
+            margin: auto;
+            border-top: 2px solid rgb(235, 227, 227);
+        }
+
+        .icons {
+            display:grid;
+            color: rgb(187, 180, 209);
+        }
+        .a1{
+            display:grid;
+            color:solid rgb(21, 21, 21);  
+        }
+       .a2{
+            width: 100%;
+            margin-top: 20px;
+            border-top: 2px solid rgb(235, 227, 227);
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="card-box">
+        <div class="card">
+            <div id="background"></div>
+            <img id="img" src="profileavatar1.png" alt="">
+            <h4
+                style="font-family: 'Roboto', sans-serif; text-align: center; font-size: 17px; margin-top:0px; color:rgb(168, 160, 160);">
+                @Revathi</h4>
+            <h2
+                style="font-family: 'Roboto', sans-serif; text-align: center; margin-top: -20px;  color:rgb(14, 14, 15)">
+                Revathi N</h2>
+            <div style="display: grid; grid-template-columns: 50% 50%;">
+                <p
+                    style="font-family: 'Roboto', sans-serif; text-align: right;  padding: 5px; border-right: 1px solid rgb(165, 136, 243);color:rgb(168, 160, 160);font-size:12px; margin-top: -10px;">
+                    Bangalore</p>
+                <p
+                    style="font-family: 'Roboto', sans-serif; text-align: left;  padding: 5px;  border-left: 1px solid rgb(108, 108, 114);color:rgb(168, 160, 160);font-size:12px;margin-top: -10px;">
+                    Joined Marc 2023
+                </p>
+            </div>
+            <div id="botton_space">
+                <button class="btn">Follow</button>
+                <button class="btn">Message</button>
+                <button class="btn">More</button>
+            </div>
+            <p
+                style="font-family: 'Roboto', sans-serif; padding: 5px; text-align: center; font-size: 13px; margin-top: -5px; margin-left: 2px;margin-right: 2px;">
+                CEO System D, Because your satisfaction is everything &
+                Standing out from the rest, and that's what we
+                want you to be as well.</p>
+        </div>
+
+        <div class="card">
+            <div id="toggle-box">
+                <button class="toggle-btn active">Message</button>
+                <button class="toggle-btn">Archieve</button>
+            </div>
+            <div class="msg-box1">
+                <div>
+                    <p
+                        style="background-color: #d5daf1; color: rgb(117, 123, 215); font-size:20px; text-align:center; padding: 5px; border-radius:30px; width: 40px; height: 30px; padding-top: 10px;">
+                        M</p>
+                </div>
+                <div>
+                    <h4
+                        style="font-family: 'Roboto', sans-serif; font-size: 15px; text-decoration: solid;color: #000; margin-top: 30px; width: 100px; margin-left:-40px;">
+                        Gunawan Reza</h4>
+                    <p
+                        style="font-family: 'Roboto', sans-serif; font-size: 15px; text-decoration: solid;color: #786f6f; margin-top:-20px; width: 100px; margin-left:-40px;">
+                        1 minutes ago</p>
+                    <p
+                        style="font-family: 'Roboto', sans-serif; font-size: 13px;color: #826c93; margin-top: -10px; width: 200px; margin-left:-100px;">
+                        Hello Bro, How are you?</p>
+                </div>
+                <div>
+                    <br>
+                    <span
+                        style="font-size: 20px;color: #ada0d8; margin-bottom: 2%; width: 100px; margin-left:80px;">...</span>
+                    <span class="material-symbols-outlined"
+                        style="color: rgb(188, 188, 233);margin-top: 22%; margin-left: 78%; font-size: 20px;">done_all</span>
+                </div>
+            </div>
+            <div class="msg-box2">
+                <div>
+                    <p
+                        style="background-color: #d1d7f1; color: rgb(86, 94, 207); font-size:20px; text-align:center; padding: 5px; border-radius:30px; width: 40px; height: 30px; padding-top: 10px; margin-top: 50px;">
+                        R</p>
+                </div>
+                <div>
+                    <h4
+                        style="font-family: 'Roboto', sans-serif; font-size: 15px; text-decoration: solid;color: #000; margin-top: 60px; width: 100px; margin-left:-40px;">
+                        Reza Agung</h4>
+                    <p
+                        style="font-family: 'Roboto', sans-serif; font-size: 15px; text-decoration: solid;color: #786f6f; margin-top:-20px; width: 100px; margin-left:-40px;">
+                        1 minutes ago</p>
+                    <p
+                        style="font-family: 'Roboto', sans-serif; font-size: 13px;color: #6a6f85; margin-top: -10px; width: 200px; margin-left:-100px; text-align: left;">
+                        What about my game yesterday? are you interested in joining my team?</p>
+                </div>
+                <div>
+                    <br><br><br>
+                    <span
+                        style="font-size: 20px;color: #ada0d8; margin-bottom: -6%; width: 100px; margin-left:80px;">...</span>
+                    <span class="material-symbols-outlined"
+                        style="color: rgb(188, 188, 233);margin-top:30%; margin-left: 78%; font-size: 20px;">done_all</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <h4 style="margin-left: 20px; font-family:'Roboto', sans-serif;">Information</h4>
+            </div>
+            <div class="icons">
+                <span class="material-symbols-outlined" style="margin-left: 20px; font-size: 20px;">language </span>
+                <p style="margin-left: 50px; margin-top: -22px; font-size: 15px;">Website</p>
+                <span class="material-symbols-outlined" style="margin-left: 20px; font-size: 20px;">mail</span>
+                <p style="margin-left: 50px;  margin-top: -20px;font-size: 15px;">Email</p>
+                <span class="material-symbols-outlined" style="margin-left: 20px; font-size: 20px;">phone_in_talk</span>
+                <p style="margin-left: 50px; margin-top: -20px; font-size: 15px;">Phone</p>
+                <span class="material-symbols-outlined" style="margin-left: 20px; font-size: 20px;">calendar_month</span>
+                <p style="margin-left: 50px; margin-top: -18px; font-size: 15px;">Joined</p>
+            </div>
+            <div class="a1">
+             <p style="font-family:'Roboto', sans-serif; font-size: 15px; margin-left: 240px; margin-top: -134px;">www.Revathi.com</p>
+             <p style="font-family:'Roboto', sans-serif; font-size: 15px; margin-left: 230px; margin-top: -100px;">Hello@Revathi.com</p>
+             <p style="font-family:'Roboto', sans-serif; font-size: 15px; margin-left: 268px; margin-top: -68px;">+1234321300</p>
+             <p style="font-family:'Roboto', sans-serif; font-size: 15px; margin-left: 260px; margin-top: -34px;">26 March, 2023</p>
+            </div>
+            <div class="a2">
+                <button class="btn">Java</button>
+                <button class="btn">Web Designer</button>
+                <button class="btn">Testing</button>
+                <button class="btn">Product</button>
+                <button class="btn">Succesfull</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

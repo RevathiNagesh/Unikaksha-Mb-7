@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_form</title>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 300,
+                'GRAD' 0,
+                'opsz' 20
+        }
+    </style>
+    <style>
+        body {
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0px;
+        }
+
+        nav {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 60% 40%;
+            border-bottom: 2px solid rgb(152, 163, 171);
+            margin: auto;
+        }
+
+        #title_bar {
+            color: solid #000;
+            margin: 20px;
+            font-size: 20px;
+            font-weight: 400px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #menu_bar {
+            font-size: 16px;
+            font-weight: 200px;
+            color: solid #000;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .menu_items {
+            display: inline-block;
+            width: 100px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            margin: 10px;
+            margin-bottom: 0px;
+            text-decoration: none;
+            color: #1b1b1b;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            border-bottom: 2px solid transparent;
+
+        }
+
+        .menu_items:hover {
+            border-bottom: 2px solid #1b1b1b;
+            margin-bottom: 0px;
+            padding-bottom: 20px;
+        }
+
+        #para {
+            text-align: left;
+        }
+
+        .p {
+            font-size: 35px;
+            color: solid #000;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 180px;
+            margin-top: 60px;
+        }
+
+        .wave {
+            font-size: 40px;
+        }
+        #m1{
+            margin-top: 50px;
+        }
+        #m2{
+            margin-top:-18%;
+        }
+        .label1{
+            display: block;
+            font-family: 'Roboto', sans-serif;
+            color: solid #000;
+            font-size: 15px;
+            margin-left:180px;
+            padding:2px;
+        }
+        .input-box1{
+            display: inline-block;
+            padding: 10px;
+            background-color: rgb(231, 230, 230);
+            border: 2px rgb(104, 99, 99);
+            border-radius: 1px;
+            border: square;
+            margin-left:180px;
+            width:35%;
+        }
+
+        .o1 {
+            display: inline-block;
+            padding: 10px;
+            background-color: rgb(231, 230, 230);
+            border: 2px rgb(104, 99, 99);
+            border-radius: 1px;
+            border: square;
+            color: #7d7b7b;
+            margin-left:180px;
+            width:36.5%;
+        }
+        .mes1{
+            display: block;
+            font-family: 'Roboto', sans-serif;
+            color: solid #000;
+            font-size: 15px;
+            margin-left:180px;
+            padding:2px;
+        }
+        .mes2{
+            display: inline-block;
+            padding: 10px;
+            background-color: rgb(231, 230, 230);
+            border: 2px rgb(104, 99, 99);
+            border-radius: 1px;
+            border: square;
+            margin-left:180px;
+            width:82%; 
+        }
+        .label2{
+            display: block;
+            font-family: 'Roboto', sans-serif;
+            color: solid #000;
+            font-size: 15px;
+            margin-left:60%;
+            padding: 2px;
+        }
+        .input-box2{
+            display: inline-block;
+            padding: 10px;
+            background-color: rgb(231, 230, 230);
+            border: 2px rgb(104, 99, 99);
+            border-radius: 1px;
+            border: square;
+            margin-left:60%;
+            width:35%;
+        }
+
+        .o2 {
+            display: inline-block;
+            padding: 10px;
+            background-color: rgb(231, 230, 230);
+            border: 2px rgb(104, 99, 99);
+            border-radius: 1px;
+            border: square;
+            color: #7d7b7b;
+            margin-left:60%;
+            width:36.5%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="title_bar">
+            <span>mattered</span>
+            <span class="material-symbols-outlined">arrow_drop_up</span>
+        </div>
+        <div id="menu_bar">
+            <a class="menu_items" href="">Services</a>
+            <a class="menu_items" href="">Work</a>
+            <a class="menu_items" href="">Insights</a>
+            <a class="menu_items" href="">Contact</a>
+        </div>
+    </nav>
+    <div id="para">
+        <p class="p">Love to hear from you, <br>
+            Get in touch<span class="wave">👋</span></p>
+    </div>
+        <form>
+            <div id="m1">
+                <label class="label1" for="title">Your name</label>
+                <input class="input-box1" type="text" placeholder="Enter your name"><br><br>
+                <label class="label1">What you are interested</label>
+                <select class="o1" type="text">
+                    <option>Design and Branding</option>
+                </select><br><br>
+                <label class="mes1" for="title">Message</label>
+                <textarea class="mes2" placeholder="Let tell us know your project about"></textarea><br><br>
+                </div>
+                <div id="m2">
+               <label class="label2" for="title">Your email</label>
+                <input class="input-box2" type="email" placeholder="Enter your email"><br><br>
+                <label class="label2">Project Budget</label>
+                <select class="o2" type="text">
+                    <option>Select your project</option>
+                </select><br><br>
+            </div>
+        </form>
+
+</body>
+
+</html>
