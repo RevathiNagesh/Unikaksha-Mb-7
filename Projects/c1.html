@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protofolic</title>
+    <style>
+        .main {
+            background-image: url(r8.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        nav {
+            width: 30%;
+            margin-left: 65%;
+            padding: 10px;
+        }
+
+        #menu_bar {
+            font-size: 16px;
+            font-weight: 200px;
+        }
+
+        .menu_items {
+            display: inline-block;
+            width: 90px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 3px;
+            margin-bottom: 0px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            border-bottom: 2px solid transparent;
+        }
+
+        .menu_items:hover {
+            border-bottom: 2px solid rgb(178, 122, 199);
+        }
+        .contact-sec
+            {
+                color: rgb(18, 18, 18);
+            }
+            .contact
+            {
+                text-align: center;
+                font-size: 30px;
+                margin-top: 10px;
+            }
+            .contact-form
+            {
+                display: block;
+                width: 60%;
+                margin: auto;
+                background-color: rgb(87, 37, 76);
+
+            }
+            .input-box
+            {
+                /* display: inline-block; */
+                width: 60%;
+                margin: 10px;
+                padding: 7px;
+                font-size: 12px;
+            }
+            label
+            {
+                display: inline-block;
+                width: 30%;
+                text-align: left;
+                color: white;
+                padding: 15px;
+            }
+            .send
+            {
+                display: block;
+                width: 70px;
+                font: 12px;
+                padding: 10px;
+                margin: auto;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+        </style>
+</head>
+<body class="main">
+    <nav>
+        <div id="menu_bar">
+            <a class="menu_items" href="protofolic_week.html">HOME</a>
+            <a class="menu_items" href="a1.html">ABOUT</a>
+            <a class="menu_items" href="p1.html">PROJECT</a>
+            <a class="menu_items" href="c1.html">CONTACT</a>
+        </div>
+    </nav>
+    <div class="contact-sec">
+            <h3 class="contact">Leave a message<p class="underline"></p></h3>
+            <form class="contact-form">
+                <label>Name</label>
+                <input type="text" name="name" class="input-box" placeholder="Enter your name"><br>
+                <label>Email</label>
+                <input type="email" name="email" class="input-box" placeholder="Enter your email"><br>
+                <label>Phone no</label>
+                <input type="number" name="phone" class="input-box" placeholder="Enter your phone no."><br>
+                <label>Message</label>
+                <input type="text" name="msg" class="input-box" placeholder="Enter your message here.."><br>
+                <input type="submit" name="submit" value="Send" class="send"><br>
+            </form>
+        
+    </div>
+    </body>
+</html>
